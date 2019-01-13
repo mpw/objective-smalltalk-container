@@ -13,6 +13,7 @@ docker run --name stsh-deploy -t -i stsh-deploy    /bin/bash -l
 To run stsh:
 
 su -l gnustep
+
 ./stsh
 
 
