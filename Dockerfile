@@ -24,5 +24,8 @@ COPY profile /.profile
 COPY libraries/*  /lib/x86_64-linux-gnu/
 COPY stsh /home/gnustep/
 
-CMD ["bash"]
+USER gnustep
+
+WORKDIR /home/gnustep/
+CMD ["/bin/bash"]
 
