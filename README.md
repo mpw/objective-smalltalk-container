@@ -1,5 +1,5 @@
 # Objective-Smalltalk Container
-Dockerfile and binaries to create a docker container for running stsh, the Objective-Smalltalk shell.
+Dockerfile and binaries to create a docker container for running [stsh](http://objective.st/Scripting/), the [Objective-Smalltalk](http://objective.st) shell.
 
 To create the image, run 
 
